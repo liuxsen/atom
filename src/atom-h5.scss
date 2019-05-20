@@ -1,0 +1,122 @@
+@for $i from 0 through 350 {
+  .m-#{$i} {
+    margin: $i * 0.01rem;
+  }
+  .ml-#{$i} {
+    margin-left: $i * 0.01rem;
+  }
+  .mr-#{$i} {
+    margin-right: $i * 0.01rem;
+  }
+  .mt-#{$i} {
+    margin-top: $i * 0.01rem;
+  }
+  .mb-#{$i} {
+    margin-bottom: $i * 0.01rem;
+  }
+  .mlr-#{$i} {
+    margin-left: $i * 0.01rem;
+    margin-right: $i * 0.01rem;
+  }
+  .mtb-#{$i} {
+    margin-top: $i * 0.01rem;
+    margin-bottom: $i * 0.01rem;
+  }
+  .p-#{$i} {
+    padding: $i * 0.01rem;
+  }
+  .pl-#{$i} {
+    padding-left: $i * 0.01rem;
+  }
+  .pr-#{$i} {
+    padding-right: $i * 0.01rem;
+  }
+  .pb-#{$i} {
+    padding-bottom: $i * 0.01rem;
+  }
+  .pt-#{$i} {
+    padding-top: $i * 0.01rem;
+  }
+  .plr-#{$i} {
+    padding-left: $i * 0.01rem;
+    padding-right: $i * 0.01rem;
+  }
+  .ptb-#{$i} {
+    padding-top: $i * 0.01rem;
+    padding-bottom: $i * 0.01rem;
+  }
+}
+
+@for $i from 0 through 750 {
+  .w-#{$i} {
+    width: $i * 0.01rem;
+  }
+  .h-#{$i} {
+    height: $i * 0.01rem;
+  }
+  .lh-#{$i} {
+    line-height: $i * 0.01rem;
+  }
+  .r-#{$i} {
+    right: $i * 0.01rem;
+  }
+  .l-#{$i} {
+    left: $i * 0.01rem;
+  }
+  .t-#{$i} {
+    top: $i * 0.01rem;
+  }
+  .b-#{$i} {
+    bottom: $i * 0.01rem;
+  }
+}
+
+@for $i from 0 through 100 {
+  .w-p#{$i} {
+    width: $i * 1%;
+  }
+  .h-p#{$i} {
+    height: $i * 1%;
+  }
+}
+
+@for $i from 0 through 100 {
+  .fs-#{$i} {
+    font-size: $i * 0.01rem;
+  }
+}
+
+@for $i from 0 through 50 {
+  .rounded-#{$i} {
+    border-radius: $i * 0.01rem;
+  }
+  .bd-#{$i} {
+    border-width: $i * 0.01rem;
+  }
+  .bdt-#{$i} {
+    border-top-width: $i * 0.01rem;
+  }
+  .bdb-#{$i} {
+    border-bottom-width: $i * 0.01rem;
+  }
+  .bdtb-#{$i} {
+    border-top-width: $i * 0.01rem;
+    border-bottom-width: $i * 0.01rem;
+  }
+  .bdr-#{$i} {
+    border-right-width: $i * 0.01rem;
+  }
+  .bdl-#{$i} {
+    border-left-width: $i * 0.01rem;
+  }
+  .bdlr-#{$i} {
+    border-left-width: $i * 0.01rem;
+    border-right-width: $i * 0.01rem;
+  }
+}
+
+@for $i from 0 through 6 {
+  .fw-#{$i}00 {
+    font-weight: $i * 100;
+  }
+}
