@@ -7,9 +7,9 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''rm -rf node_modules && \\
-npm install && \\
-npm run build && 
+        sh '''rm -rf node_modules
+npm install
+npm run build
 ls dist'''
       }
     }
