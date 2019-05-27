@@ -3,7 +3,6 @@ pipeline {
     docker {
       image 'node'
     }
-
   }
   stages {
     stage('build') {
